@@ -1,35 +1,24 @@
 # FastAPI 核心框架
 fastapi>=0.100.0
-uvicorn[standard]>=0.23.2
+uvicorn>=0.23.2
 
-# 异步数据库 + SQLAlchemy
+# 异步数据库
 sqlalchemy>=2.0.20
 aiomysql>=0.2.0
 
-# 环境变量管理
+# 环境变量
 python-dotenv>=1.0.0
 
-# 用户认证（登录、密码加密、Token）
+# 用户认证
 pwdlib>=0.3.0
 python-jose>=3.3.0
 
-# 文件上传（博客图片/头像）
+# 文件上传
 python-multipart>=0.0.6
 
-# 数据库迁移（修改表结构必备）
+# 数据库迁移
 alembic>=1.12.0
 
-# 加载.env文件的环境变量（优先加载，避免硬编码）
-dotenv>=0.9.9
-
-# 加密安全工具包
-cryptography>=46.0.5
-
-# Alembic 迁移工具
-alembic>=1.18.4
-
-# Chroma向量数据库
+# 向量库 + 向量模型
 chromadb>=1.5.5
-
-# 生成文本向量
 sentence-transformers>=5.3.0
